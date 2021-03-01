@@ -28,5 +28,6 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./containers";
 
-ReactDOM.render(<p>Hey, welcome to EzPlot</p>, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("app"));
